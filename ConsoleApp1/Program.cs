@@ -8,5 +8,15 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
         }
+
+        void test()
+        {
+            Console.WriteLine("32");
+        }
+
+        void test2()
+        {
+            Console.WriteLine("3");
+        }
     }
 }
