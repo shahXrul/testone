@@ -11,7 +11,7 @@ namespace ConsoleApp1
 
         void test()
         {
-            Console.WriteLine("2");
+            Console.WriteLine("32");
         }
 
         void test2()
