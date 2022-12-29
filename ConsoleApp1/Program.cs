@@ -10,5 +10,11 @@ namespace ConsoleApp1
             Console.WriteLine("1");
 
         }
+
+        void test()
+        {
+            Console.WriteLine("2");
+
+        }
     }
 }
