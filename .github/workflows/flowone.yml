@@ -3,13 +3,16 @@ name: Workflow Test
 on:
   push:
     branches: [ main ]
-
+env:
+  MY_VARIABLE: my-value
+  
 jobs:
   job-pass:
     runs-on: ubuntu-latest
 
     steps:
     - name: Echo success message
+      run: echo $MY_VARIABLE
       run: echo "This job passed!"
 
   job-fail:
