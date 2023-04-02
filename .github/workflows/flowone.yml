@@ -1,0 +1,20 @@
+name: Workflow Test
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  job-pass:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Echo success message
+      run: echo "This job passed!"
+
+  job-fail:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Echo failure message
+      run: echo "This job failed!" && exit 1
